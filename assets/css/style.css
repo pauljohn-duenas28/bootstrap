@@ -1,0 +1,36 @@
+*{
+	margin: 0
+	padding:0;
+	box-sizing: border-box;
+}
+[class*="col"]{
+/*	border: 1px solid black;*/
+	/*margin-bottom: 10px;*/
+
+}
+
+#warn{
+	width: 25%;
+}
+#suc{
+	width: 50%;
+}
+#info{
+	width: 95%;
+}
+.media > img{
+	width: 150px;
+	height: 150px;
+	background-position: center;
+	background-image: cover;
+}
+.media{
+	margin-top: 25px;
+}
+/*.container-fluid{
+	margin: 10px;
+}
+*/
+.anime-1{
+	animation-iteration-count: infinite;
+}
